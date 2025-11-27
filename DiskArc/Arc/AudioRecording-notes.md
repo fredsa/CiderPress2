@@ -82,7 +82,7 @@ reasonable resolution.  We need to tell the difference between a 650usec
 half-cycle and a 200usec half-cycle for the start, and 250/500usec for
 the data section.  Our measurements can comfortably be off by 200 usec
 with no ill effects on the lead-in, assuming a perfect signal.  (Sampling
-every 200 usec would be 5Hz.)  The data itself needs to be +/- 125usec
+every 200 usec would be k5Hz.)  The data itself needs to be +/- 125usec
 for half-cycles, though we can get a little sloppier if we average the
 error out by combining half-cycles.
 
